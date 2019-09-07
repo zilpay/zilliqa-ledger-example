@@ -1,0 +1,57 @@
+{
+  "name": "zilliqa-ledger-example",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "serve:https": "vue-cli-service serve --https",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@ledgerhq/hw-transport-u2f": "^4.68.4",
+    "@ledgerhq/hw-transport-webauthn": "^4.68.4",
+    "@ledgerhq/hw-transport-webusb": "^4.69.0",
+    "@zilliqa-js/zilliqa": "^0.7.5",
+    "bootstrap-vue": "^2.0.0-rc.28",
+    "chalk": "^2.4.2",
+    "core-js": "^2.6.5",
+    "express": "^4.17.1",
+    "uuidv4": "^5.0.0",
+    "vue": "^2.6.10",
+    "vue-json-tree-view": "^2.1.4"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.11.0",
+    "@vue/cli-plugin-eslint": "^3.11.0",
+    "@vue/cli-service": "^3.11.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "http-server": "^0.11.1",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
